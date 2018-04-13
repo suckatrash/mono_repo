@@ -1,10 +1,11 @@
-Build:
-    # If you need some AppA specific build commands executed, you 
-    #  could add them here.
-  - echo "Nothing to build"
-PkgInclude:
-    # This section defines what artifacts to keep from the build
-    #  for this application.
-    # The following syntax will keep all folders and files from
-    #  the subdir AppA/
-  - 'AppA/'
+ech/appa:
+  Build:
+      # If you need some AppA specific build commands executed, you 
+      #  could add them here.
+  -   echo "Nothing to build"
+  PkgInclude:
+      # This section defines what artifacts to keep from the build
+      #  for this application.
+      # The following syntax will keep all folders and files from
+      #  the subdir AppA/
+    - 'appa/'
