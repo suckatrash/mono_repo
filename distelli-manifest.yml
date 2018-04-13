@@ -2,5 +2,4 @@ ech/mono_repo:
   Build:
   # This section will include the build steps to build the application.   
   # An example
-    - make all
-    - make test
+    - echo "hello dumb world"
