@@ -3,3 +3,4 @@ ech/mono_repo:
   # This section will include the build steps to build the application.   
   # An example
     - echo "hello dumb world"
+    - echo "this is the dev branch"
