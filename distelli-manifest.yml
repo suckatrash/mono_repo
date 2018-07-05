@@ -1,5 +1,7 @@
 ech/mono_repo:
   PreBuild:
+    - hostname -f
+    - hostname
     - cat /distelli/test_version > test
   Env:
     - THING: "$(cat test)"
