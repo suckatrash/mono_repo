@@ -10,4 +10,4 @@ ech/mono_repo:
   Exec:
     - echo "hello world $THING"
   PkgInclude:
-    - "test"
+    - "/distelli/test_version"
