@@ -1,10 +1,10 @@
 ech/mono_repo:
   Env:
-    - THING: "$(cat /distelli/test)"
+    - THING: "$(cat test)"
   PreBuild:
     - pwd
     - ls
-    - sudo touch /distelli/test
+    - touch test
     - sudo echo "666" > /distelli/test
   Build:
   # This section will include the build steps to build the application.   
@@ -13,4 +13,4 @@ ech/mono_repo:
   Exec:
     - echo "hello world $THING"
   PkgInclude:
-    - "/distelli/test"
+    - "test"
