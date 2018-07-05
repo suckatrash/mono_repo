@@ -4,6 +4,9 @@ ech/mono_repo:
   Build:
   # This section will include the build steps to build the application.   
   # An example
+    - cat "hello smart world" > nothing
     - echo "hello dumb world $THING"
   Exec:
-    - echo "hello dumb world $THING"
+    - echo "hello dumb world $(cat nothing)"
+  PkgInclude:
+    - 'nothing'
