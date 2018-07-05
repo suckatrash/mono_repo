@@ -1,6 +1,6 @@
 ech/mono_repo:
   PreBuild:
-    - echo "9001" > /distelli/test_version
+    - sudo echo "9001" > /distelli/test_version
   Env:
     - THING: "$(cat /distelli/test_version)"
   Build:
