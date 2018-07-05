@@ -1,10 +1,10 @@
 ech/mono_repo:
-  Env:
-    - THING: "$(cat test)"
   PreBuild:
     - pwd
     - ls
     - echo "666" > test
+ Env:
+    - THING: "$(cat test)"
   Build:
   # This section will include the build steps to build the application.   
   # An example
