@@ -4,8 +4,7 @@ ech/mono_repo:
   PreBuild:
     - pwd
     - ls
-    - touch test
-    - sudo echo "666" > /distelli/test
+    - echo "666" > test
   Build:
   # This section will include the build steps to build the application.   
   # An example
