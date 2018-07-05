@@ -1,8 +1,8 @@
 ech/mono_repo:
   PreBuild:
-    - echo "90" > test
+    - echo "9001" > /distelli/test_version
   Env:
-    - THING: "$(cat test)"
+    - THING: "$(cat /distelli/test_version)"
   Build:
   # This section will include the build steps to build the application.   
   # An example
