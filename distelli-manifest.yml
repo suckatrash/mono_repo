@@ -1,6 +1,6 @@
 ech/mono_repo:
   PreBuild:
-    - echo "646" > test
+    - cat /distelli/test_version > test
   Env:
     - THING: "$(cat test)"
   Build:
