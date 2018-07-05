@@ -1,8 +1,6 @@
 ech/mono_repo:
-  PreBuild:
-    - pwd
-    - ls
-    - echo "666" > test
+ PreBuild:
+    - echo "646" > test
  Env:
     - THING: "$(cat test)"
   Build:
