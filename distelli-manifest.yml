@@ -1,6 +1,6 @@
 ech/mono_repo:
   PreBuild:
-    - cat "90" > test
+    - echo "90" > test
   Env:
     - THING: "$(cat test)"
   Build:
