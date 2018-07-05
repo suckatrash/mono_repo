@@ -1,6 +1,5 @@
 ech/mono_repo:
   Env:
-    - TEST: "4321"
     - THING: "$TEST"
   Build:
   # This section will include the build steps to build the application.   
