@@ -1,7 +1,7 @@
 ech/mono_repo:
   Env:
     - THING: "$(cat /distelli/test)"
-  Pre-Build:
+  PreBuild:
     - echo "666" > /distelii/test"
   Build:
   # This section will include the build steps to build the application.   
