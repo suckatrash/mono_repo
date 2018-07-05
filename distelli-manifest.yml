@@ -1,6 +1,6 @@
 ech/mono_repo:
   PreBuild:
-    - cat /distelli/test_version > value
+    - echo $BUILD_NUMBER > value
   Env:
     - BUILD_NUMBER_ENV: "$(cat value)"
   Build:
