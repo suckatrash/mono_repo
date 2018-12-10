@@ -10,7 +10,7 @@ ech/mono_repo:
     - echo "it worked!"
   Exec:
     - echo "hello world $BUILD_NUMBER_ENV"
-    - sleep 5
+    - sleep 10
     - echo "bob"
   PkgInclude:
     - "value"
